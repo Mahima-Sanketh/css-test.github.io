@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  height: 40px;
+  flex-direction: row;
+}
+
+.left {
+  background-color: rgb(171, 171, 171);
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.right {
+  background-color: lightblue;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+  h1 {
+    text-align: center;
+  }
+  .left,
+  .right {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .lal {
+    flex-direction: row;
+    margin-top: 20%;
+  }
+  #p {
+    margin-top: 2rem;
+    font-size: 20px;
+    margin-left: 50px;
+  }
+}
+
+.wi {
+  background-color: aqua;
+  margin-top: 20px;
+  width: 33%;
+  height: 80px;
+  padding: 30px;
+  text-align: center;
+  margin-right: 10px;
+}
+.wi1 {
+  background-color: rgb(13, 45, 255);
+  margin-top: 20px;
+  width: 33%;
+  height: 80px;
+  padding: 30px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.wi2 {
+  background-color: rgb(250, 6, 242);
+  margin-top: 20px;
+  width: 33%;
+  height: 80px;
+  padding: 30px;
+  text-align: center;
+}
+
+.lal {
+  display: flex;
+}
+
+@media screen and (max-width: 285px) {
+  .lal {
+    margin-top: 28%;
+  }
+}
+
+#i {
+  max-width: 100%;
+  width: 600px;
+  height: 400px;
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image > p {
+  font-family: 'Times New Roman', Times, serif;
+  width: 18rem;
+  margin-top: -20rem;
+}
+
+@media screen and (max-width: 850px) {
+  #p {
+    margin-top: 5rem;
+    font-size: 30px;
+  }
+}
